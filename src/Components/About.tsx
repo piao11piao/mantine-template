@@ -13,14 +13,14 @@ const About = () => {
 
                     <div style={{ marginBottom: 15 }}>
                         <Text transform="uppercase" weight={500} color="yellow">
-                            MADE WITH REACT AND MANTINE
+                            MADE SILICON POSSIBLE
                         </Text>
                     </div>
 
                     <div style={{ marginBottom: 15 }}>
                         <Text>
                             <MediaQuery query="(max-width: 768px)" styles={{ fontSize: '2.8rem !important' }}>
-                                <h1 className="title">Simple Mantine Template</h1>
+                                <h1 className="title">DANAXSSERT International Trading GmbH</h1>
                             </MediaQuery>
                         </Text>
                     </div>

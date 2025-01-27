@@ -12,11 +12,11 @@ const Header = () => {
         <header>
             <div className="content-desktop">
                 <div>
-                    <Badge size="lg" radius={10} color="yellow">A simple Mantine template</Badge>
+                    <Badge size="lg" radius={10} color="yellow">#######</Badge>
                 </div>
                 <div className="navbar">
-                    <div className="navbar-item"><Link to="section-one" smooth duration={500}>Carousel</Link></div>
-                    <div className="navbar-item"><Link to="section-four" smooth duration={500}>Cards</Link></div>
+                    <div className="navbar-item"><Link to="section-one" smooth duration={500}>Products</Link></div>
+                    <div className="navbar-item"><Link to="section-four" smooth duration={500}>Sales</Link></div>
                     <div className="navbar-item"><Link to="section-five" smooth duration={500}>FAQS</Link></div>
 
                     <Button color="yellow" onClick={() => redirectToLink('https://mantine.dev/')}>Check out Mantine</Button>
@@ -55,8 +55,8 @@ const Header = () => {
                         <div className="menu-items">
                             <Text>Contact</Text>
 
-                            <Anchor href="mailto:example@mail.com">
-                                example@mail.com
+                            <Anchor href="mailto:sales@danaxssert.de">
+                                sales@danaxssert.de
                             </Anchor>
                         </div>
 
@@ -67,8 +67,8 @@ const Header = () => {
                                     <Group>
                                         <Avatar size={40} color="orange">GDC</Avatar>
                                         <div>
-                                            <Text>Giuseppetm</Text>
-                                            <Text size="xs" color="dimmed">giuseppe.delcampo@outlook.com</Text>
+                                            <Text>Email</Text>
+                                            <Text size="xs" color="dimmed">sales@danaxssert.de</Text>
                                         </div>
                                     </Group>
                                 </UnstyledButton>
