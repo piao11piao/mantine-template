@@ -21,16 +21,16 @@ const Footer = () => {
                             #####################-------- <Anchor href="https://icons8.com/">www.icons8.com</Anchor>
                         </Text>
 
-                        <Button variant="white" color="black" onClick={() => redirectToLink('https://mantine.dev/')}>Send email to us</Button>
+                        <Button variant="white" color="black" onClick={() => redirectToLink('https://internatioanl-trading.danaxssert.de')}>Send email to us</Button>
                     </Grid.Col>
 
                     <Grid.Col xs={12} sm={4} md={4} lg={4}>
                         <Code color="yellow" style={{ display: 'flex', flexDirection: 'column', gap: 6, padding: 15 }}>
                             T#######
-                            <Anchor href="https://github.com/Giuseppetm">
+                            <Anchor href="mailto:https://sales@danaxssert.de">
                                 <UnstyledButton>
                                     <Group>
-                                        <Avatar size={40} color="orange">GDC</Avatar>
+                                        <Avatar size={40} color="orange">DANAXSSERT</Avatar>
                                         <div>
                                             <Text>SALES</Text>
                                             <Text size="xs" color="dimmed">sales@danaxssert.de</Text>
