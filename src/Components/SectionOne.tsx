@@ -1,6 +1,8 @@
 import { Carousel } from '@mantine/carousel';
-import { Text, Container, useMantineTheme, Title } from '@mantine/core';
+import { Image, Text, Container, useMantineTheme, Title } from '@mantine/core';
 import '../Styles/SectionOne.scss';
+import limeSurfingImg from '../Images/lime-surfing.png'; // use ES6 import for the image
+
 
 const SectionOne = () => {
     const theme = useMantineTheme();
@@ -44,7 +46,14 @@ const SectionOne = () => {
                     <Carousel.Slide>
                         <div style={carouselContent}>
                             <Title order={2}>1</Title>
-                            <Text>Write something here.</Text>
+                            
+                            
+                             <Image 
+                                src={limeSurfingImg} 
+                                alt={'sample1'} 
+                                style={{ width: '100%' }} 
+                              />
+
                         </div>
                     </Carousel.Slide>
                     <Carousel.Slide>

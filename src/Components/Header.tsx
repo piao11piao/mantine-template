@@ -19,7 +19,7 @@ const Header = () => {
                     <div className="navbar-item"><Link to="section-four" smooth duration={500}>Sales</Link></div>
                     <div className="navbar-item"><Link to="section-five" smooth duration={500}>FAQS</Link></div>
                     <div className="navbar-item"><Link to="section-six" smooth duration={500}>Impressum</Link></div>
-                    <Button color="yellow" onClick={() => redirectToLink('https://mantine.dev/')}>Check out Mantine</Button>
+                    
                 </div>
             </div>
 

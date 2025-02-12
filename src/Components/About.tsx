@@ -27,7 +27,7 @@ const About = () => {
 
                     <div style={{ marginBottom: 25 }}>
                         <Text size="xl" color="black">
-                            Simple showcase of this powerful and well implemented library called <Anchor href="https://mantine.dev/">Mantine</Anchor>.
+                            YOU CAN PUT THINGS HIER.
                         </Text>
                     </div>
 
