@@ -11,17 +11,19 @@ const Footer = () => {
 
                     <Grid.Col xs={12} sm={8} md={8} lg={8}>
                         
-                        <Text size="xl" weight={700} color="white" mb="10px">Danaxssert International Trading GmbH</Text>
-
+                        <Text size="xl" weight={700} color="white" mb="10px">Danaxssert International Trading GmbH</Text> 
                         <Text color="white" mb="5px">
-                            ##################***#######
+                            Tel:  0049 1607683035
+                        </Text>
+                        <Text color="white" mb="5px"> 
+                            Addr: Kronprinzenstr.14 65185 Germany
                         </Text>
 
                         <Text color="white" mb="20px">
-                            #####################-------- <Anchor href="https://icons8.com/">www.icons8.com</Anchor>
+                            Email: sales@danaxxsert.de <Anchor href="mailto:https://sales@danaxssert.de"></Anchor>
                         </Text>
 
-                        <Button variant="white" color="black" onClick={() => redirectToLink('https://internatioanl-trading.danaxssert.de')}>Send email to us</Button>
+                        <Button variant="white" color="black" onClick={() => redirectToLink("mailto:https://sales@danaxssert.de")} > Send email to us</Button>
                     </Grid.Col>
 
                     <Grid.Col xs={12} sm={4} md={4} lg={4}>

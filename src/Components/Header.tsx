@@ -18,7 +18,7 @@ const Header = () => {
                     <div className="navbar-item"><Link to="section-one" smooth duration={500}>Products</Link></div>
                     <div className="navbar-item"><Link to="section-four" smooth duration={500}>Sales</Link></div>
                     <div className="navbar-item"><Link to="section-five" smooth duration={500}>FAQS</Link></div>
-
+                    <div className="navbar-item"><Link to="section-six" smooth duration={500}>Impressum</Link></div>
                     <Button color="yellow" onClick={() => redirectToLink('https://mantine.dev/')}>Check out Mantine</Button>
                 </div>
             </div>
@@ -50,6 +50,7 @@ const Header = () => {
                             <div className="menu-item"><Link to="section-one" smooth duration={500} onClick={() => setOpened(false)}><Title order={2}>Carousel</Title></Link></div>
                             <div className="menu-item"><Link to="section-four" smooth duration={500} onClick={() => setOpened(false)}><Title order={2}>Cards</Title></Link></div>
                             <div className="menu-item"><Link to="section-five" smooth duration={500} onClick={() => setOpened(false)}><Title order={2}>FAQs</Title></Link></div>
+                            <div className="menu-item"><Link to="section-six" smooth duration={500} onClick={() => setOpened(false)}><Title order={2}>FAQs</Title></Link></div>
                         </div>
 
                         <div className="menu-items">
@@ -62,10 +63,10 @@ const Header = () => {
 
                         <Code color="yellow" style={{ display: 'flex', flexDirection: 'column', gap: 6, padding: 15 }}>
                             Template made by
-                            <Anchor href="https://github.com/Giuseppetm">
+                            <Anchor href="mailto:sales@danaxssert.de">
                                 <UnstyledButton>
                                     <Group>
-                                        <Avatar size={40} color="orange">GDC</Avatar>
+                                        <Avatar> size={40} color="orange"DANAXSSERT"</Avatar>
                                         <div>
                                             <Text>Email</Text>
                                             <Text size="xs" color="dimmed">sales@danaxssert.de</Text>

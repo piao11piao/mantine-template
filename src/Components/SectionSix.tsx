@@ -1,17 +1,17 @@
 import { Title, Text, Container, Grid, Image, Button } from '@mantine/core';
 
-const SectionTwo = () => {
+const SectionSix = () => {
     //const theme = useMantineTheme();
 
     return (
-        <section id="section-two">
+        <section id="section-six">
             <Container>
                 <Grid justify="space-around">
                     <Grid.Col xs={6} sm={8} md={8} lg={8}>
                         <div style={{ marginBottom: 20 }}>
                             <Text color="black">
                                 <Title order={1}>Impressum</Title>
-                                Dennis Farina was one of Hollywood's busiest actors and a familiar face to moviegoers and television viewers alike.
+                                
                                 Impressum Impressum Impressum Impressum 
                                 Impressum Impressum Impressum Impressum
                             </Text>
@@ -27,4 +27,4 @@ const SectionTwo = () => {
     )
 };
 
-export default SectionTwo;
+export default SectionSix;
