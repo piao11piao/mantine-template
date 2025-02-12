@@ -13,35 +13,29 @@ const SectionSix = () => {
                                 <Title order={1}>Impressum</Title>
                                  <p>Informationen über den Diensteanbieter.</p>
                                  <p><strong>Impressum der DANAXSSERT International Trading GmbH</strong></p>
-                                 <p>
+                                   <p>
                                     <strong>DANAXSSERT International Trading GmbH</strong><br />
                                     Kronprinzenstr.14, <br />65185 Wiesbaden <br />Deutschland <br />
-                                 </p>
-                                  <p>
+                                   </p>
+                                   <p>
                                     <strong>Kontakt</strong> <br />   
                                     Telefon: 0049 1607683035 <br /> 
                                     E-Mail:<a href="mailto:sales@danaxssert.de"> sales@danaxssert.de </a> <br />
                                     Internet: https://international-trading.danaxssert.de <br />
-                                  </p>
-                                  <p>  
-                                    <strong>Register:</strong> Handelsregister <br />
                                    </p>
                                    <p>
                                     <strong>Registernummer:</strong><br /> HRB 34109 <br />
-                                    </p>
-                                    <p>
-                                    <strong>Registergericht:</strong> Handelsregister B des  Amtsgerichts Wiesbaden <br />
                                    </p>
                                    <p>
-                                    <strong>Geschäftsführer:</strong> Piao Wang <br />
-                                    <strong>E-Mail:</strong> <a href="mailto:michael.wang@danaxssert.de"> michael.wang@danaxssert.de </a> <br />
-                                    <strong>Tel.:</strong> 0049 1607683035  <br />
-                                    <strong>Impressum:</strong> https:international-trading.danaxssert.de/impressum/   <br /> 
-                                </p>
-                                <p>Alle Texte sind urheberrechtlich geschützt.</p>
+                                    <strong>Registergericht:</strong><br /> Handelsregister B des  Amtsgerichts Wiesbaden <br />
+                                   </p>
+                                   <p>
+                                    <strong>Geschäftsführer:</strong> <br /> Piao Wang <br /> 
+                                   </p>
+                                 <p>Alle Texte sind urheberrechtlich geschützt.</p>
                             </Text>
                         </div>
-                        <Button color="yellow">Check it out</Button>
+                        
                     </Grid.Col>
                     <Grid.Col xs={6} sm={4} md={4} lg={4}>
                         <Image src={require('../Images/lime-surfing.png')} alt={'sample1'} style={{ width: '100%' }} />
