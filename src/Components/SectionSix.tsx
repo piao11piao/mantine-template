@@ -17,7 +17,13 @@ const SectionSix = () => {
                                  <p><strong>Danaxssert International Trading GmbH</strong></p>
                                  <p>Kronprinzenstr.14,</p>
                                  <p>65185 Wiesbaden,Deutschland <br /> test </p>
-                                 <p><strong>Tel.:</strong>0049 1607683035 <br /> <strong>E-Mail:</strong> <a href="mailto:sales@danaxssert.de"> sales@danaxssert.de </a></p>
+                                 <p>
+                                    <strong>Tel.:</strong>0049 1607683035 <br /> 
+                                    <strong>E-Mail:</strong> <a href="mailto:sales@danaxssert.de"> sales@danaxssert.de </a> <br />
+                                    <strong>Register:</strong> Handelsregister <br />
+                                    <strong>Registernummer:</strong> HRB 34109 <br />
+                                    <strong>Registergericht:</strong> Handelsregister B des  Amtsgerichts Wiesbaden <br />
+                                 </p>
                             </Text>
                         </div>
                         <Button color="yellow">Check it out</Button>
