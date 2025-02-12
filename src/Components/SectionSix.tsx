@@ -23,6 +23,8 @@ const SectionSix = () => {
                                     <strong>Register:</strong> Handelsregister <br />
                                     <strong>Registernummer:</strong> HRB 34109 <br />
                                     <strong>Registergericht:</strong> Handelsregister B des  Amtsgerichts Wiesbaden <br />
+                                    <strong>Geschäftsführer:</strong> Piao Wang <br />
+                                    
                                  </p>
                             </Text>
                         </div>
