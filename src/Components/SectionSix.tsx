@@ -11,9 +11,9 @@ const SectionSix = () => {
                         <div style={{ marginBottom: 20 }}>
                             <Text color="black">
                                 <Title order={1}>Impressum</Title>
-                                
-                                Impressum Impressum Impressum Impressum 
-                                Impressum Impressum Impressum Impressum
+                                 <p>Impressum</p>
+                                 <p>Impressum</p>
+                                  <p><strong>Danaxssert International Trading GmbH</strong></p>
                             </Text>
                         </div>
                         <Button color="yellow">Check it out</Button>
