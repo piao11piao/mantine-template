@@ -13,7 +13,11 @@ const SectionSix = () => {
                                 <Title order={1}>Impressum</Title>
                                  <p>Impressum</p>
                                  <p>Impressum</p>
-                                  <p><strong>Danaxssert International Trading GmbH</strong></p>
+                                 <p>Informationen über den Diensteanbieter.</p>
+                                 <p><strong>Danaxssert International Trading GmbH</strong></p>
+                                 <p>Kronprinzenstr.14,</p>
+                                 <p>65185 Wiesbaden,Deutschland <br /> test </p>
+                                 <p><strong>Tel.:</strong>0049 1607683035</p>
                             </Text>
                         </div>
                         <Button color="yellow">Check it out</Button>
