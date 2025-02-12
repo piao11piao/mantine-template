@@ -14,7 +14,7 @@ const SectionSix = () => {
                                  <p>Informationen über den Diensteanbieter.</p>
                                  <p><strong>Impressum der DANAXSSERT International Trading GmbH</strong></p>
                                  <p>
-                                    <strong>DANAXSSERT International Trading GmbH</strong><br />
+                                    <strong>DANAXSSERT International Trading GmbH</strong> <br />
                                     Kronprinzenstr.14, <br />65185 Wiesbaden <br />Deutschland <br />
                                  </p>
                                   <p>
@@ -22,17 +22,10 @@ const SectionSix = () => {
                                     Telefon: 0049 1607683035 <br /> 
                                     E-Mail:<a href="mailto:sales@danaxssert.de"> sales@danaxssert.de </a> <br />
                                     Internet: https://international-trading.danaxssert.de <br />
-                                  </p>
-                                  <p>  
+                                    
                                     <strong>Register:</strong> Handelsregister <br />
-                                   </p>
-                                   <p>
-                                    <strong>Registernummer:</strong><br /> HRB 34109 <br />
-                                    </p>
-                                    <p>
+                                    <strong>Registernummer:</strong> HRB 34109 <br />
                                     <strong>Registergericht:</strong> Handelsregister B des  Amtsgerichts Wiesbaden <br />
-                                   </p>
-                                   <p>
                                     <strong>Geschäftsführer:</strong> Piao Wang <br />
                                     <strong>E-Mail:</strong> <a href="mailto:michael.wang@danaxssert.de"> michael.wang@danaxssert.de </a> <br />
                                     <strong>Tel.:</strong> 0049 1607683035  <br />
