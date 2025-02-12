@@ -10,13 +10,17 @@ const SectionSix = () => {
                     <Grid.Col xs={6} sm={8} md={8} lg={8}>
                         <div style={{ marginBottom: 20 }}>
                             <Text color="black">
-                                <Title order={1}>Impressum</Title>
+                                <Title order={1}>Impressum der DANAXSSERT International Trading GmbH</Title>
                                  <p>Informationen über den Diensteanbieter.</p>
-                                 <p><strong>Danaxssert International Trading GmbH</strong></p>
+                                 <p><strong>DANAXSSERT International Trading GmbH</strong></p>
                                  <p>
-                                    <strong>Addr.:</strong> Kronprinzenstr.14, 65185 Wiesbaden,Deutschland <br />
-                                    <strong>Tel.:</strong>0049 1607683035 <br /> 
-                                    <strong>E-Mail:</strong> <a href="mailto:sales@danaxssert.de"> sales@danaxssert.de </a> <br />
+                                    Kronprinzenstr.14, <br />65185 Wiesbaden <br />Deutschland <br />
+                                 </p>
+                                  <p>
+                                    <strong>Kontakt</strong> <br />   
+                                    Telefon: 0049 1607683035 <br /> 
+                                    E-Mail:<a href="mailto:sales@danaxssert.de"> sales@danaxssert.de </a> <br />
+                                    Internet: https://international-trading.danaxssert.de <br />
                                     <strong>Register:</strong> Handelsregister <br />
                                     <strong>Registernummer:</strong> HRB 34109 <br />
                                     <strong>Registergericht:</strong> Handelsregister B des  Amtsgerichts Wiesbaden <br />
