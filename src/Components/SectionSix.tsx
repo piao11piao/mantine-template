@@ -11,21 +11,21 @@ const SectionSix = () => {
                         <div style={{ marginBottom: 20 }}>
                             <Text color="black">
                                 <Title order={1}>Impressum</Title>
-                                 <p>Impressum</p>
-                                 <p>Impressum</p>
                                  <p>Informationen über den Diensteanbieter.</p>
                                  <p><strong>Danaxssert International Trading GmbH</strong></p>
-                                 <p>Kronprinzenstr.14,</p>
-                                 <p>65185 Wiesbaden,Deutschland <br /> test </p>
                                  <p>
+                                    <strong>Addr.:</strong> Kronprinzenstr.14, 65185 Wiesbaden,Deutschland <br />
                                     <strong>Tel.:</strong>0049 1607683035 <br /> 
                                     <strong>E-Mail:</strong> <a href="mailto:sales@danaxssert.de"> sales@danaxssert.de </a> <br />
                                     <strong>Register:</strong> Handelsregister <br />
                                     <strong>Registernummer:</strong> HRB 34109 <br />
                                     <strong>Registergericht:</strong> Handelsregister B des  Amtsgerichts Wiesbaden <br />
                                     <strong>Geschäftsführer:</strong> Piao Wang <br />
-                                    
-                                 </p>
+                                    <strong>E-Mail:</strong> <a href="mailto:michael.wang@danaxssert.de"> michael.wang@danaxssert.de </a> <br />
+                                    <strong>Tel.:</strong> 0049 1607683035  <br />
+                                    <strong>Impressum:</strong> https:international-trading.danaxssert.de/impressum/   <br /> 
+                                </p>
+                                <p>Alle Texte sind urheberrechtlich geschützt.</p>
                             </Text>
                         </div>
                         <Button color="yellow">Check it out</Button>
