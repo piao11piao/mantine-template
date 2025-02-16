@@ -37,7 +37,7 @@ const About = () => {
                     </div>
 
                     <div className="buttons">
-                        <Link to="section-six" smooth duration={500}>
+                        <Link to="section-seven" smooth duration={500}>
                             <Button color="yellow" radius="lg" size="md">Contact Us</Button>
                         </Link>
 

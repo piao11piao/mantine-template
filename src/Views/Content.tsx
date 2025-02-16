@@ -5,6 +5,7 @@ import SectionThree from '../Components/SectionThree';
 import SectionFour from '../Components/SectionFour';
 import SectionFive from '../Components/SectionFive';
 import SectionSix from '../Components/SectionSix';
+import SectionSeven from '../Components/SectionSeven';
 const Content = () => {
     return (
         <>
@@ -21,6 +22,8 @@ const Content = () => {
             <SectionFive />
 
             <SectionSix />
+
+            <SectionSeven />
             { /* Other sections .. */ }
         </>
     )
