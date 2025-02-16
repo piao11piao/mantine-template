@@ -9,16 +9,52 @@ const Header = () => {
     const title = opened ? 'Close navigation' : 'Open navigation';
 
     return (
-        <header>
+        
+
+
+    <header
+      style={{
+        position: 'sticky',  // Sticky positioning
+        top: 0,              // Stick to the top of the page
+        zIndex: 1000,        // Ensure it stays above other content
+        backgroundColor: '#fff',  // Optional: For better visibility
+        boxShadow: '0 4px 2px -2px gray',  // Optional: Add shadow for better contrast      
+      }}
+    >
+
+
             <div className="content-desktop">
                 <div>
                     <Badge size="lg" radius={10} color="yellow">THIS IS BADGE</Badge>
                 </div>
                 <div className="navbar">
-                    <div className="navbar-item"><Link to="section-one" smooth duration={500}>Products</Link></div>
-                    <div className="navbar-item"><Link to="section-four" smooth duration={500}>Sales</Link></div>
+    
+                    
+                     <div className="navbar-item">
+                       <Link to="section-one" smooth duration={500}>
+                       <Button variant="light" color="yellow" radius="lg" size="md">Products</Button> 
+                       </Link>
+
+                    </div>
+
+                    <div className="navbar-item">
+                        <Link to="section-four" smooth duration={500}>
+                           <Button variant="light" color="yellow" radius="lg" size="md">Sales</Button> 
+                        
+                       </Link>
+                    </div>
+  
+
+
                     <div className="navbar-item"><Link to="section-five" smooth duration={500}>FAQS</Link></div>
-                    <div className="navbar-item"><Link to="section-six" smooth duration={500}>Impressum</Link></div>
+
+
+                    <div className="navbar-item"><Link to="section-six" smooth duration={500}><Button variant="light" color="yellow" radius="lg" size="md">Imprint</Button></Link></div>
+
+
+
+
+
                     
                 </div>
             </div>
