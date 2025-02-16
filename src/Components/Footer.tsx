@@ -1,4 +1,4 @@
-import { useMantineTheme, Container, Grid, Text, Button, Group, Avatar, UnstyledButton, Anchor, Code } from '@mantine/core';
+import { Image,useMantineTheme, Container, Grid, Text, Button, Group, Avatar, UnstyledButton, Anchor, Code } from '@mantine/core';
 
 const Footer = () => {
     const theme = useMantineTheme();
@@ -23,15 +23,18 @@ const Footer = () => {
                             Email: sales@danaxssert.de <Anchor href="mailto:sales@danaxssert.de"></Anchor>
                         </Text>
 
-                        <Button variant="white" color="black" onClick={() => redirectToLink("mailto:sales@danaxssert.de")} > Send email to us</Button>
+                        <Button variant="white" color="black" onClick={() => window.location.href=("mailto:sales@danaxssert.de")} > Send email to us</Button>
                     </Grid.Col>
 
                     <Grid.Col xs={12} sm={4} md={4} lg={4}>
                         <Code color="yellow" style={{ display: 'flex', flexDirection: 'column', gap: 6, padding: 15 }}>
-                            T#######
-                            <Anchor href="mailto:sales@danaxssert.de">
-                                <UnstyledButton>
-                                    <Group>
+                          Visit Card
+                            
+                         <Image src={require('../Images/lime-surfing.png')} alt={'sample1'} style={{ width: '100%' }} />
+                           <Anchor href="mailto:sales@danaxssert.de">
+                            <UnstyledButton>
+                                       <Group>
+ 
                                         <Avatar size={40} color="orange">DANAXSSERT</Avatar>
                                         <div>
                                             <Text>SALES</Text>
