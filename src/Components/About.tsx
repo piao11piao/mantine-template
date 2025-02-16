@@ -38,10 +38,10 @@ const About = () => {
 
                     <div className="buttons">
                         <Link to="section-one" smooth duration={500}>
-                            <Button color="yellow" rightIcon={<MdOutlineArrowDownward size={16} />} radius="lg" size="md">Tell me more</Button>
+                            <Button color="yellow" radius="lg" size="md">Contact Us</Button>
                         </Link>
 
-                        <Button variant="default" radius="lg" size="md">Other stuff</Button>
+                        <Button variant="default" radius="lg" size="md">About the Company</Button>
                     </div>
 
                 </div>

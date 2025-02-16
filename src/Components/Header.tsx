@@ -62,7 +62,7 @@ const Header = () => {
                         </div>
 
                         <Code color="yellow" style={{ display: 'flex', flexDirection: 'column', gap: 6, padding: 15 }}>
-                            Template made by
+                            Template made by hahahahahahahahahahahhhhhhhhhhhhh
                             <Anchor href="mailto:sales@danaxssert.de">
                                 <UnstyledButton>
                                     <Group>
