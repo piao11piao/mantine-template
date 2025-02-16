@@ -29,20 +29,10 @@ const Footer = () => {
                     <Grid.Col xs={12} sm={4} md={4} lg={4}>
                         <Code color="yellow" style={{ display: 'flex', flexDirection: 'column', gap: 6, padding: 15 }}>
             
-                            
+                        <Anchor href="mailto:sales@danaxssert.de">    
                          <Image src={require('../Images/visitencard.png')} alt={'sample1'} style={{ width: '100%' }} />
-                           <Anchor href="mailto:sales@danaxssert.de">
-                            <UnstyledButton>
-                                       <Group>
- 
-                                        <Avatar size={40} color="orange">DANAXSSERT</Avatar>
-                                        <div>
-                                            <Text>SALES</Text>
-                                            <Text size="xs" color="dimmed">sales@danaxssert.de</Text>
-                                        </div>
-                                    </Group>
-                                </UnstyledButton>
-                            </Anchor>
+                         </Anchor>
+                      
                         </Code>
                     </Grid.Col>
                 </Grid>
