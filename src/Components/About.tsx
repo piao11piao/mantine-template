@@ -20,8 +20,13 @@ const About = () => {
                     <div style={{ marginBottom: 15 }}>
                         <Text>
                             <MediaQuery query="(max-width: 768px)" styles={{ fontSize: '2.8rem !important' }}>
-                                <h1 className="title">DANAXSSERT International Trading GmbH</h1>      
+                                <h1 className="title">DANAXSSERT</h1>      
                             </MediaQuery>
+                            <MediaQuery query="(max-width: 768px)" styles={{ fontSize: '2.8rem !important' }}>
+                                <h1 className="title">International Trading GmbH</h1>
+                            </MediaQuery>
+
+                           
                         </Text>
                     </div>
 
