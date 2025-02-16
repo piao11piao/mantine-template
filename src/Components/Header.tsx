@@ -12,7 +12,7 @@ const Header = () => {
         <header>
             <div className="content-desktop">
                 <div>
-                    <Badge size="lg" radius={10} color="yellow">#######</Badge>
+                    <Badge size="lg" radius={10} color="yellow">THIS IS BADGE</Badge>
                 </div>
                 <div className="navbar">
                     <div className="navbar-item"><Link to="section-one" smooth duration={500}>Products</Link></div>
@@ -62,7 +62,7 @@ const Header = () => {
                         </div>
 
                         <Code color="yellow" style={{ display: 'flex', flexDirection: 'column', gap: 6, padding: 15 }}>
-                            Template made by hahahahahahahahahahahhhhhhhhhhhhh
+                            DANAXSSERT International Trading GmbH
                             <Anchor href="mailto:sales@danaxssert.de">
                                 <UnstyledButton>
                                     <Group>

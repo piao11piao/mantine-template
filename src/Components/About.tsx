@@ -23,12 +23,18 @@ const About = () => {
                                 <h1 className="title">DANAXSSERT</h1>      
                             </MediaQuery>
                             <MediaQuery query="(max-width: 768px)" styles={{ fontSize: '2.8rem !important' }}>
+
+
                                 <h1 className="title">International Trading GmbH</h1>
                             </MediaQuery>
 
                            
                         </Text>
+
                     </div>
+
+
+
 
                     <div style={{ marginBottom: 25 }}>
                         <Text size="xl" color="black">

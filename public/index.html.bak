@@ -3,15 +3,15 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="author" content="DANAXSSERT International Trading GmbH" />
-    <meta name="description" content="Homepage of DANAXSSERT International Trading GmbH" />
-    <title>DANAXSSERT International Trading GmbH</title>
+    <meta name="author" content="Giuseppe Del Campo" />
+    <meta name="description" content="Simple Mantine template made with React and Mantine." />
+    <title>Simple Mantine Template</title>
 
     <!-- OG Properties -->
-    <meta property="og:title" content="DANAXSSERT International Trading GmbH" />
-    <meta property="og:description" content="DANAXSSERT International Trading GmbH" />
+    <meta property="og:title" content="Simple Mantine Template" />
+    <meta property="og:description" content="Simple Mantine template made with React and Mantine." />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://danaxssert-trading.danaxssert.de" />
+    <meta property="og:url" content="https://mantinetemplate.netlify.app/" />
     <meta property="og:image" content="sample.png" />
 
     <!-- Custom Fonts -->
