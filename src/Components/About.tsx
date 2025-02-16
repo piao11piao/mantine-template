@@ -11,11 +11,7 @@ const About = () => {
 
                 <div className="about-content">
 
-                    <div style={{ marginBottom: 15 }}>
-                        <Text transform="uppercase" weight={500} color="yellow">
-                            MAKE SILICON POSSIBLE
-                        </Text>
-                    </div>
+         
 
                     <div style={{ marginBottom: 15 }}>
                         <Text>

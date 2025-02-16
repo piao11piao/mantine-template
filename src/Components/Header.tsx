@@ -25,14 +25,24 @@ const Header = () => {
 
             <div className="content-desktop" style={{ padding: '5px 80px 0px 30px' }}>
                 
-                <div>
-                  <div style={{ width: '10%', padding: '0px', textAlign: 'center' }}>
+                <div style={{ display: 'flex', alignItems: 'center' }}>
+                  <div style={{ width: '50%', padding: '10px 0px 0px 0px', textAlign: 'center' }}>
                   <a href="#top">                    
-                       <Image src={require('../Images/logo.png')} alt={'sample1'} style={{ width: '100%' }} />
+                       <Image src={require('../Images/logo2.png')} alt={'sample1'} style={{ width: '100%' }} />
                    </a>
                   </div>
-                </div>
+
+                
+
+
+        
+
+             </div>
+
+
                 <div className="navbar">
+
+
     
                     
                      <div className="navbar-item">
