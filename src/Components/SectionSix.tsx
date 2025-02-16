@@ -10,29 +10,29 @@ const SectionSix = () => {
                     <Grid.Col xs={6} sm={8} md={8} lg={8}>
                         <div style={{ marginBottom: 20 }}>
                             <Text color="black">
-                                <Title order={1}>Impressum</Title>
-                                 <p>Informationen über den Diensteanbieter.</p>
-                                 <p><strong>Impressum der DANAXSSERT International Trading GmbH</strong></p>
+                                <Title order={1}>Imprint</Title>
+                                 
+                                 <p><strong>Imprint of DANAXSSERT International Trading GmbH</strong></p>
                                    <p>
                                     <strong>DANAXSSERT International Trading GmbH</strong><br />
-                                    Kronprinzenstr.14, <br />65185 Wiesbaden <br />Deutschland <br />
+                                    Kronprinzenstr.14 <br />65185 Wiesbaden <br />Germany <br />
                                    </p>
                                    <p>
-                                    <strong>Kontakt</strong> <br />   
-                                    Telefon: 0049 1607683035 <br /> 
+                                    <strong>Contact</strong> <br />   
+                                    Telefon: +49 1607683035 <br /> 
                                     E-Mail:<a href="mailto:sales@danaxssert.de"> sales@danaxssert.de </a> <br />
                                     Internet: https://international-trading.danaxssert.de <br />
                                    </p>
                                    <p>
-                                    <strong>Registernummer:</strong><br /> HRB 34109 <br />
+                                   <strong>VAT Number</strong><br /> DE361163826  <br />
                                    </p>
                                    <p>
-                                    <strong>Registergericht:</strong><br /> Handelsregister B des  Amtsgerichts Wiesbaden <br />
+                                    <strong>Register Entries</strong><br /> Registration Court: Court Wiesbaden HRB 34109 <br />
                                    </p>
+                
                                    <p>
-                                    <strong>Geschäftsführer:</strong> <br /> Piao Wang <br /> 
+                                    <strong>Director</strong> <br /> Piao Wang <br /> 
                                    </p>
-                                 <p>Alle Texte sind urheberrechtlich geschützt.</p>
                             </Text>
                         </div>
                         
