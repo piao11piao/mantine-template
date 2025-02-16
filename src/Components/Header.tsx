@@ -1,4 +1,4 @@
-import { Button, Badge, Burger, Drawer, Code, Title, Anchor, Text } from '@mantine/core';
+import { Image, Button, Badge, Burger, Drawer, Code, Title, Anchor, Text } from '@mantine/core';
 import { UnstyledButton, Group, Avatar } from '@mantine/core';
 import React from 'react';
 import { Link } from 'react-scroll';
@@ -46,7 +46,7 @@ const Header = () => {
   
 
 
-                    <div className="navbar-item"><Link to="section-five" smooth duration={500}>FAQS</Link></div>
+           
 
 
                     <div className="navbar-item"><Link to="section-six" smooth duration={500}><Button variant="light" color="yellow" radius="lg" size="md">Imprint</Button></Link></div>
@@ -83,10 +83,9 @@ const Header = () => {
                 >
                     <div className="menu">
                         <div className="menu-items">
-                            <div className="menu-item"><Link to="section-one" smooth duration={500} onClick={() => setOpened(false)}><Title order={2}>Carousel</Title></Link></div>
-                            <div className="menu-item"><Link to="section-four" smooth duration={500} onClick={() => setOpened(false)}><Title order={2}>Cards</Title></Link></div>
-                            <div className="menu-item"><Link to="section-five" smooth duration={500} onClick={() => setOpened(false)}><Title order={2}>FAQs</Title></Link></div>
-                            <div className="menu-item"><Link to="section-six" smooth duration={500} onClick={() => setOpened(false)}><Title order={2}>FAQs</Title></Link></div>
+                            <div className="menu-item"><Link to="section-one" smooth duration={500} onClick={() => setOpened(false)}><Title order={2}>Products</Title></Link></div>
+                            <div className="menu-item"><Link to="section-four" smooth duration={500} onClick={() => setOpened(false)}><Title order={2}>Sales</Title></Link></div>
+                            <div className="menu-item"><Link to="section-six" smooth duration={500} onClick={() => setOpened(false)}><Title order={2}>Imprints</Title></Link></div>
                         </div>
 
                         <div className="menu-items">
@@ -97,18 +96,14 @@ const Header = () => {
                             </Anchor>
                         </div>
 
+
+
                         <Code color="yellow" style={{ display: 'flex', flexDirection: 'column', gap: 6, padding: 15 }}>
-                            DANAXSSERT International Trading GmbH
+                         
                             <Anchor href="mailto:sales@danaxssert.de">
-                                <UnstyledButton>
-                                    <Group>
-                                        <Avatar> size={40} color="orange"DANAXSSERT"</Avatar>
-                                        <div>
-                                            <Text>Email</Text>
-                                            <Text size="xs" color="dimmed">sales@danaxssert.de</Text>
-                                        </div>
-                                    </Group>
-                                </UnstyledButton>
+                              
+
+                               <Image src={require('../Images/visitencard.png')} alt={'sample1'} style={{ width: '100%' }} />
                             </Anchor>
                         </Code>
                     </div>

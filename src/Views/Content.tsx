@@ -19,8 +19,6 @@ const Content = () => {
 
             <SectionFour />
 
-            <SectionFive />
-
             <SectionSix />
 
             <SectionSeven />
