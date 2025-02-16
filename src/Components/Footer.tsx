@@ -28,9 +28,9 @@ const Footer = () => {
 
                     <Grid.Col xs={12} sm={4} md={4} lg={4}>
                         <Code color="yellow" style={{ display: 'flex', flexDirection: 'column', gap: 6, padding: 15 }}>
-                          Visit Card
+            
                             
-                         <Image src={require('../Images/lime-surfing.png')} alt={'sample1'} style={{ width: '100%' }} />
+                         <Image src={require('../Images/visitencard.png')} alt={'sample1'} style={{ width: '100%' }} />
                            <Anchor href="mailto:sales@danaxssert.de">
                             <UnstyledButton>
                                        <Group>
