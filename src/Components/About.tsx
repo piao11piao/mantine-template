@@ -13,21 +13,21 @@ const About = () => {
 
                     <div style={{ marginBottom: 15 }}>
                         <Text transform="uppercase" weight={500} color="yellow">
-                            MADE SILICON POSSIBLE
+                            MAKE SILICON POSSIBLE
                         </Text>
                     </div>
 
                     <div style={{ marginBottom: 15 }}>
                         <Text>
                             <MediaQuery query="(max-width: 768px)" styles={{ fontSize: '2.8rem !important' }}>
-                                <h1 className="title">DANAXSSERT International Trading GmbH</h1>
+                                <h1 className="title">DANAXSSERT International Trading GmbH</h1>      
                             </MediaQuery>
                         </Text>
                     </div>
 
                     <div style={{ marginBottom: 25 }}>
                         <Text size="xl" color="black">
-                            YOU CAN PUT THINGS HIER.
+                            Empowering Industries with Premium Silicon Metal Solutions
                         </Text>
                     </div>
 
