@@ -23,9 +23,14 @@ const Header = () => {
     >
 
 
-            <div className="content-desktop">
+            <div className="content-desktop" style={{ padding: '5px 80px 0px 30px' }}>
+                
                 <div>
-                    <Badge size="lg" radius={10} color="yellow">THIS IS BADGE</Badge>
+                  <div style={{ width: '10%', padding: '0px', textAlign: 'center' }}>
+                  <a href="#top">                    
+                       <Image src={require('../Images/logo.png')} alt={'sample1'} style={{ width: '100%' }} />
+                   </a>
+                  </div>
                 </div>
                 <div className="navbar">
     
