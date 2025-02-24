@@ -53,7 +53,7 @@ const Header = () => {
                     </div>
 
                     <div className="navbar-item">
-                        <Link to="section-four" smooth duration={500}>
+                        <Link to="section-seven" smooth duration={500}>
                            <Button variant="light" color="yellow" radius="lg" size="md">Sales</Button> 
                         
                        </Link>

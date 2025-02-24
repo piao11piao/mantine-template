@@ -11,13 +11,7 @@ const Content = () => {
         <>
             <About />
 
-            <SectionOne />
-
-            <SectionTwo />
-
-            <SectionThree />
-
-            <SectionFour />
+            <SectionOne />           
 
             <SectionSix />
 
