@@ -80,7 +80,7 @@ const SectionOne = () => {
                              <Image
                                 src={product3Img}
                                 alt={'sample1'}
-                                style={{ width: '96%' }}
+                                style={{ width: '90%' }}
                               />
                         </div>
                     </Carousel.Slide>
@@ -91,7 +91,7 @@ const SectionOne = () => {
                               <Image
                                 src={product4Img}
                                 alt={'sample1'}
-                                style={{ width: '96%' }}
+                                style={{ width: '90%' }}
                               />
 
                         </div>
@@ -102,7 +102,7 @@ const SectionOne = () => {
                              <Image
                                 src={product5Img}
                                 alt={'sample1'}
-                                style={{ width: '96%' }}
+                                style={{ width: '90%' }}
                               />
                         </div>
                     </Carousel.Slide>
@@ -112,7 +112,7 @@ const SectionOne = () => {
                              <Image
                                 src={product6Img}
                                 alt={'sample1'}
-                                style={{ width: '96%' }}
+                                style={{ width: '90%' }}
                               />
                         </div>
                     </Carousel.Slide>
