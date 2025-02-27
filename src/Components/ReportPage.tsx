@@ -1,16 +1,16 @@
 import { Title, Text, Container, Grid, Image, Button } from '@mantine/core';
 
-const SectionTwo = () => {
+const ReportPage = () => {
     //const theme = useMantineTheme();
 
     return (
-        <section id="section-two">
+        <section id="ReportPage">
             <Container>
                 <Grid justify="space-around">
                     <Grid.Col xs={6} sm={12} md={12} lg={12}>
                         <div style={{ marginBottom: 20 }}>
                             <Text color="black">
-                                <Title order={1}>About Us</Title>
+                                <Title order={1}>Report</Title>
                                 Dennis Farina was one of Hollywood's busiest actors and a familiar face to moviegoers and television viewers alike.
                                 Impressum Impressum Impressum Impressum 
                                 Impressum Impressum Impressum Impressum
@@ -25,7 +25,7 @@ const SectionTwo = () => {
 
                         <div style={{ marginBottom: 20 }}>
                             <Text color="black">
-                                <Title order={1}>About Us</Title>
+                                <Title order={1}>Report</Title>
                                 Dennis Farina was one of Hollywood's busiest actors and a familiar face to moviegoers and television viewers alike.
                                 Impressum Impressum Impressum Impressum
                                 Impressum Impressum Impressum Impressum
@@ -39,4 +39,4 @@ const SectionTwo = () => {
     )
 };
 
-export default SectionTwo;
+export default ReportPage;
