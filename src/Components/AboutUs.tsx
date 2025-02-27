@@ -28,6 +28,63 @@ const AboutUs = () => {
                                     </ul>
                                   <h3>Our Products</h3>
                                      We offer the following <strong>typical grades</strong> of silicon metal products and can <strong>provide different specifications and packaging</strong> according to customer requirements:<br/>
+<table border="1">
+<tbody style={{ textAlign: 'center' }}>
+ <tr>
+    <td><strong>Grade</strong></td>
+    <td><strong>Si (%)</strong></td>
+    <td><strong>Fe (%)</strong></td>
+    <td><strong>Al (%)</strong></td>
+    <td><strong>Ca (%)</strong></td>
+    <td><strong>Main Applications</strong></td>
+  </tr>
+  <tr>
+    <td><strong>553</strong></td>
+    <td>≥98.5</td>
+    <td>≤0.50</td>
+    <td>≤0.50</td>
+    <td>≤0.30</td>
+    <td>Aluminum alloys, Chemical industry</td>
+  </tr>
+  <tr>
+    <td><strong>441</strong></td>
+    <td>≥99.0</td>
+    <td>≤0.40</td>
+    <td>≤0.40</td>
+    <td>≤0.10</td>
+    <td>Aluminum alloys, Silicone resin</td>
+  </tr>
+  <tr>
+    <td><strong>3303</strong></td>
+    <td>≥99.3</td>
+    <td>≤0.30</td>
+    <td>≤0.30</td>
+    <td>≤0.03</td>
+    <td>Electronic materials, Special alloys</td>
+  </tr>
+  <tr>
+    <td><strong>2202</strong></td>
+    <td>≥99.5</td>
+    <td>≤0.20</td>
+    <td>≤0.20</td>
+    <td>≤0.02</td>
+    <td>Solar industry, Semiconductor</td>
+  </tr>
+  <tr>
+    <td><strong>1101</strong></td>
+    <td>≥99.7</td>
+    <td>≤0.10</td>
+    <td>≤0.10</td>
+    <td>≤0.01</td>
+    <td>Semiconductor, Photovoltaic industry</td>
+  </tr>
+</tbody>
+</table>
+                                       <h3>Industries We Serve</h3>
+                                          Our products are widely used in the following industries:<br/>
+                                        <ul>
+                                         
+                                         </ul>
 
 
 
