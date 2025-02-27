@@ -3,7 +3,7 @@ import { UnstyledButton, Group, Avatar } from '@mantine/core';
 import React from 'react';
 import { Link } from 'react-scroll';
 
-const Header = () => {
+const Header_Index = () => {
     //const theme = useMantineTheme();
     const [opened, setOpened] = React.useState(false);
     const title = opened ? 'Close navigation' : 'Open navigation';
@@ -61,18 +61,18 @@ const Header = () => {
   
 
                     <div className="navbar-item">
-                        <a href="https://international-trading.danaxssert.de/#about-us" target="_blank" rel="noopener noreferrer">
+                        <Link to="about-us" smooth duration={500}>
                              <Button variant="light" color="yellow" radius="lg" size="md">About Us</Button>
-                       </a>
+                       </Link>
                    </div>
            
 
                     <div className="navbar-item"><Link to="quality-assurance" smooth duration={500}><Button variant="light" color="yellow" radius="lg" size="md">Quality Assurance</Button></Link></div>
 
                     <div className="navbar-item">
-                        <a href="https://international-trading.danaxssert.de/#imprint" target="_blank" rel="noopener noreferrer">
+                        <Link to="imprint" smooth duration={500}>
                              <Button variant="light" color="yellow" radius="lg" size="md">Imprint</Button>
-                       </a>
+                       </Link>
                    </div>
 
                    
@@ -105,9 +105,11 @@ const Header = () => {
                 >
                     <div className="menu">
                         <div className="menu-items">
-                            <div className="menu-item"><Link to="section-one" smooth duration={500} onClick={() => setOpened(false)}><Title order={2}>Products</Title></Link></div>
-                            <div className="menu-item"><Link to="section-four" smooth duration={500} onClick={() => setOpened(false)}><Title order={2}>Sales</Title></Link></div>
-                            <div className="menu-item"><Link to="section-six" smooth duration={500} onClick={() => setOpened(false)}><Title order={2}>Imprints</Title></Link></div>
+                            <div className="menu-item"><Link to="section-one" smooth duration={500} onClick={() => setOpened(false)}><Title order={1}>Products</Title></Link></div>
+                            <div className="menu-item"><Link to="section-seven" smooth duration={500} onClick={() => setOpened(false)}><Title order={2}>Sales</Title></Link></div>
+                            <div className="menu-item"><Link to="about-us" smooth duration={500} onClick={() => setOpened(false)}><Title order={3}>About The Company</Title></Link></div>
+                          <div className="menu-item"><Link to="quality-assurance" smooth duration={500} onClick={() => setOpened(false)}><Title order={4}>Quality Assurance</Title></Link></div>
+                            <div className="menu-item"><Link to="imprint" smooth duration={500} onClick={() => setOpened(false)}><Title order={5}>Imprints</Title></Link></div>
                         </div>
 
                         <div className="menu-items">
@@ -135,7 +137,7 @@ const Header = () => {
     );
 };
 
-export default Header;
+export default Header_Index;
 
 const redirectToLink = (link: string): void => {
     window.open(link, '_blank');

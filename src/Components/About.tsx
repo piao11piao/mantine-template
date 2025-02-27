@@ -44,7 +44,7 @@ const About = () => {
                         </Link>
   
                        
-                       <Link to="section-six" smooth duration={500}>
+                       <Link to="about-us" smooth duration={500}>
     
                            <Button variant="outline" color="yellow" radius="lg" size="md">About the Company</Button>
                         </Link>

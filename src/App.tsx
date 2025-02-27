@@ -1,18 +1,18 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Content from './Views/Content';
-import Header from './Components/Header';
+
 import Footer from './Components/Footer';
 import { MantineProvider } from '@mantine/core';
 import { TypographyStylesProvider } from '@mantine/core';
-import ReportPage from './Components/ReportPage'; // Create this new page component
+import ReportPage from './Views/ReportPage'; // Create this new page component
 
 function App() {
   return (
    <Router> 
     <MantineProvider>
       <TypographyStylesProvider>
-        <Header />
+       
          <Routes>     
             <Route path="/" element={<Content />} />
             <Route path="/report" element={<ReportPage />} />
