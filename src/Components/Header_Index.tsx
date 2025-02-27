@@ -131,10 +131,16 @@ const Header_Index = () => {
 
 
 
+
+
+
+
+
+
                         <Code color="yellow" style={{ display: 'flex', flexDirection: 'column', gap: 0, padding: 0 }}>
-                         
+
                             <Anchor href="mailto:sales@danaxssert.de">
-                              
+
 
                                <Image src={require('../Images/visitencard.png')} alt={'sample1'} style={{ width: '100%' }} />
                             </Anchor>
