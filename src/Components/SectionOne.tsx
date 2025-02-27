@@ -26,6 +26,9 @@ const SectionOne = () => {
         <section id="section-one">
             <Container>
                 <Text color="black" align="center" mb="15px">
+                    <Title order={1}>  </Title>
+                </Text>
+                <Text color="black" align="center" mb="15px">
                     <Title order={1}>Products</Title>
                 </Text>
 
@@ -40,7 +43,7 @@ const SectionOne = () => {
                     slideGap="md"
                     breakpoints={[
                         { maxWidth: 'md', slideSize: '50%' },
-                        { maxWidth: 'sm', slideSize: '100%', slideGap: 15 },
+                        { maxWidth: 'sm', slideSize: '80%', slideGap: 15 },
                     ]}
                     loop
                     align="start"

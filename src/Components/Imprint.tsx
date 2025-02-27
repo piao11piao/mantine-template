@@ -7,8 +7,8 @@ const Imprint = () => {
         <section id="imprint">
             <Container>
                 <Grid justify="space-around">
-                    <Grid.Col xs={6} sm={8} md={8} lg={8}>
-                        <div style={{marginTop: 100,marginBottom: 20 }}>
+                    <Grid.Col xs={6} sm={12} md={12} lg={12}>
+                        <div>
                             <Text color="black">
                                 <Title order={1}>Imprint</Title>
                                  
@@ -37,9 +37,7 @@ const Imprint = () => {
                         </div>
                         
                     </Grid.Col>
-                    <Grid.Col xs={6} sm={4} md={4} lg={4}>
-                      
-                    </Grid.Col>
+      
                 </Grid>
             </Container>
         </section>

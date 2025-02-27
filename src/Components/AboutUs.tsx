@@ -28,7 +28,7 @@ const AboutUs = () => {
                                     </ul>
                                   <h3>Our Products</h3>
                                      We offer the following <strong>typical grades</strong> of silicon metal products and can <strong>provide different specifications and packaging</strong> according to customer requirements:<br/>
-<table border="1">
+<table style={{ border: '1px solid black' }}>
 <tbody style={{ textAlign: 'center' }}>
  <tr>
     <td><strong>Grade</strong></td>
@@ -83,18 +83,17 @@ const AboutUs = () => {
                                        <h3>Industries We Serve</h3>
                                           Our products are widely used in the following industries:<br/>
                                         <ul>
-                                         
+                                         <li><strong>Aluminum Alloy Manufacturing</strong> – Enhances the strength and corrosion resistance of aluminum alloys.</li>
+                                         <li><strong>Chemical Industry</strong> – Used in the production of silicones, silicone resins, silicone oils, and other silicon-based chemicals.</li>
+                                         <li><strong>Solar Photovoltaics</strong> – High-purity silicon metal is a key raw material for solar cells.</li>
+                                         <li><strong>Semiconductor Industry</strong> – Essential for manufacturing high-tech electronic products.</li>
                                          </ul>
-
-
-
-
-
-
-
-
-
-
+                                       <h3>How We Work</h3>
+                                        <ul>
+                                         <li><strong>Customized Procurement</strong> – Providing different specifications, packaging, and transportation options based on customer requirements.</li>
+                                         <li><strong>Global Delivery</strong> – Ensuring fast and secure delivery via sea, land, and air transportation.</li>
+                                         <li><strong>Long-term Cooperation</strong> – Building lasting strategic partnerships through high-quality products and excellent services.</li>
+                                          </ul>
 
 
                             </Text>

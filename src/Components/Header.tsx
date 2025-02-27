@@ -19,6 +19,7 @@ const Header = () => {
         zIndex: 1000,        // Ensure it stays above other content
         backgroundColor: '#fff',  // Optional: For better visibility
         boxShadow: '0 4px 2px -2px gray',  // Optional: Add shadow for better contrast      
+        padding: '0 20px 0px',    // Optional: Padding for spacing inside the header
       }}
     >
 
@@ -28,37 +29,26 @@ const Header = () => {
                 <div style={{ display: 'flex', alignItems: 'center' }}>
                   <div style={{ width: '50%', padding: '10px 0px 0px 0px', textAlign: 'center' }}>
                   <a href="#top">                    
-                       <Image src={require('../Images/logo2.png')} alt={'sample1'} style={{ width: '100%' }} />
+                       <Image src={require('../Images/logo2.png')} alt={'sample1'} style={{ width: '300px' }} />
                    </a>
-                  </div>
-
-                
-
-
-        
+                  </div>        
 
              </div>
 
 
                 <div className="navbar">
 
-
-    
-                    
-                     <div className="navbar-item">
-                       <Link to="section-one" smooth duration={500}>
-                       <Button variant="light" color="yellow" radius="lg" size="md">Products</Button> 
-                       </Link>
-
-                    </div>
+                    <div className="navbar-item">
+                        <a href="https://international-trading.danaxssert.de/#section-one" target="_blank" rel="noopener noreferrer">
+                             <Button variant="light" color="yellow" radius="lg" size="md">Products</Button>
+                       </a>
+                   </div>  
 
                     <div className="navbar-item">
-                        <Link to="section-seven" smooth duration={500}>
-                           <Button variant="light" color="yellow" radius="lg" size="md">Sales</Button> 
-                        
-                       </Link>
-                    </div>
-  
+                        <a href="https://international-trading.danaxssert.de/#section-seven" target="_blank" rel="noopener noreferrer">
+                             <Button variant="light" color="yellow" radius="lg" size="md">Sales</Button>
+                       </a>
+                   </div>
 
                     <div className="navbar-item">
                         <a href="https://international-trading.danaxssert.de/#about-us" target="_blank" rel="noopener noreferrer">
@@ -67,7 +57,12 @@ const Header = () => {
                    </div>
            
 
-                    <div className="navbar-item"><Link to="quality-assurance" smooth duration={500}><Button variant="light" color="yellow" radius="lg" size="md">Quality Assurance</Button></Link></div>
+
+                     <div className="navbar-item">
+                        <a href="https://international-trading.danaxssert.de/#quality-assurance" target="_blank" rel="noopener noreferrer">
+                             <Button variant="light" color="yellow" radius="lg" size="md">Quality Assurance</Button>
+                       </a>
+                     </div>
 
                     <div className="navbar-item">
                         <a href="https://international-trading.danaxssert.de/#imprint" target="_blank" rel="noopener noreferrer">

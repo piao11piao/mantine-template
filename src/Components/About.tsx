@@ -2,12 +2,12 @@ import { Text, Container, Anchor, MediaQuery, Button } from '@mantine/core';
 import { MdOutlineArrowDownward } from "react-icons/md";
 import { Link } from 'react-scroll';
 
-const About = () => {
+const About = () => { 
     //const theme = useMantineTheme();
 
     return (
         <section id="about">
-            <Container fluid>
+            <Container fluid  mb="20px">
 
                 <div className="about-content">
 

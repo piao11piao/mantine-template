@@ -5,10 +5,10 @@ const QualityAssurance = () => {
 
     return (
         <section id="quality-assurance">
-            <Container>
+            <Container >
                 <Grid justify="space-around">
                     <Grid.Col xs={6} sm={12} md={12} lg={12}>
-                        <div style={{marginTop: 100, marginBottom: 20 }}>
+                        <div>
                             <Text color="black">
                                 <Title order={1}>Quality Assurance</Title>
                                
@@ -28,10 +28,8 @@ const QualityAssurance = () => {
                                
                             </Text>
                         </div>
-                    </Grid.Col>
-                  
-                    <Grid.Col xs={6} sm={12} md={12} lg={12}>
-                        <div style={{ marginBottom: 20 }}>
+         
+                        <div>
                             <Text color="black">
                                <h3>Quality Control Process</h3>
                               <ul>

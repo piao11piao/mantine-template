@@ -19,6 +19,7 @@ const Header_Index = () => {
         zIndex: 1000,        // Ensure it stays above other content
         backgroundColor: '#fff',  // Optional: For better visibility
         boxShadow: '0 4px 2px -2px gray',  // Optional: Add shadow for better contrast      
+        padding: '0 20px 0px',    // Optional: Padding for spacing inside the header
       }}
     >
 
@@ -28,7 +29,7 @@ const Header_Index = () => {
                 <div style={{ display: 'flex', alignItems: 'center' }}>
                   <div style={{ width: '50%', padding: '10px 0px 0px 0px', textAlign: 'center' }}>
                   <a href="#top">                    
-                       <Image src={require('../Images/logo2.png')} alt={'sample1'} style={{ width: '100%' }} />
+                       <Image src={require('../Images/logo2.png')} alt={'sample1'} style={{ width: '300px' }} />
                    </a>
                   </div>
 
@@ -97,32 +98,40 @@ const Header_Index = () => {
                     transitionTimingFunction="ease"
                     overlayOpacity={0.55}
                     position="right"
-                    closeButtonLabel="Close drawer"
-                    title="Menu"
+                    withCloseButton={false}
+                    
                     padding="xl"
                     opened={opened}
                     onClose={() => setOpened(false)}
                 >
+
+               <Avatar
+                component="a"
+                href="https://international-trading.danaxssert.de/"
+                target="_blank"
+                src="sample.png"
+                alt="logo"
+                />
                     <div className="menu">
                         <div className="menu-items">
-                            <div className="menu-item"><Link to="section-one" smooth duration={500} onClick={() => setOpened(false)}><Title order={1}>Products</Title></Link></div>
-                            <div className="menu-item"><Link to="section-seven" smooth duration={500} onClick={() => setOpened(false)}><Title order={2}>Sales</Title></Link></div>
-                            <div className="menu-item"><Link to="about-us" smooth duration={500} onClick={() => setOpened(false)}><Title order={3}>About The Company</Title></Link></div>
+                            <div className="menu-item"><Link to="section-one" smooth duration={500} onClick={() => setOpened(false)}><Title order={4}>Products</Title></Link></div>
+                            <div className="menu-item"><Link to="section-seven" smooth duration={500} onClick={() => setOpened(false)}><Title order={4}>Sales</Title></Link></div>
+                            <div className="menu-item"><Link to="about-us" smooth duration={500} onClick={() => setOpened(false)}><Title order={4}>About Us</Title></Link></div>
                           <div className="menu-item"><Link to="quality-assurance" smooth duration={500} onClick={() => setOpened(false)}><Title order={4}>Quality Assurance</Title></Link></div>
-                            <div className="menu-item"><Link to="imprint" smooth duration={500} onClick={() => setOpened(false)}><Title order={5}>Imprints</Title></Link></div>
+                            <div className="menu-item"><Link to="imprint" smooth duration={500} onClick={() => setOpened(false)}><Title order={4}>Imprint</Title></Link></div>
                         </div>
 
                         <div className="menu-items">
-                            <Text>Contact</Text>
+                            
 
-                            <Anchor href="mailto:sales@danaxssert.de">
-                                sales@danaxssert.de
-                            </Anchor>
+                           <Anchor href="mailto:sales@danaxssert.de">
+                            Contact: sales@danaxssert.de
+                           </Anchor>
                         </div>
 
 
 
-                        <Code color="yellow" style={{ display: 'flex', flexDirection: 'column', gap: 6, padding: 15 }}>
+                        <Code color="yellow" style={{ display: 'flex', flexDirection: 'column', gap: 0, padding: 0 }}>
                          
                             <Anchor href="mailto:sales@danaxssert.de">
                               
