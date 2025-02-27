@@ -66,9 +66,13 @@ const Header = () => {
 
                     <div className="navbar-item"><Link to="section-six" smooth duration={500}><Button variant="light" color="yellow" radius="lg" size="md">Imprint</Button></Link></div>
 
+                    <div className="navbar-item">
+                        <a href="https://international-trading.danaxssert.de/#section-six" target="_blank" rel="noopener noreferrer">
+                             <Button variant="light" color="yellow" radius="lg" size="md">Imprint2</Button>
+                       </a>
+                   </div>
 
-
-
+                   
 
                     
                 </div>
