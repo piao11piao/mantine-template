@@ -4,8 +4,9 @@ import SectionTwo from '../Components/SectionTwo';
 import SectionThree from '../Components/SectionThree';
 import SectionFour from '../Components/SectionFour';
 import SectionFive from '../Components/SectionFive';
-import SectionSix from '../Components/SectionSix';
+import Imprint from '../Components/Imprint';
 import SectionSeven from '../Components/SectionSeven';
+import QualityAsscurance from '../Components/QualityAssurance';
 const Content = () => {
     return (
         <>
@@ -13,7 +14,8 @@ const Content = () => {
 
             <SectionOne />           
             <SectionTwo />
-            <SectionSix />
+            <QualityAsscurance />
+            <Imprint />
 
             <SectionSeven />
             { /* Other sections .. */ }

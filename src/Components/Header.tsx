@@ -63,12 +63,11 @@ const Header = () => {
 
            
 
-
-                    <div className="navbar-item"><Link to="section-six" smooth duration={500}><Button variant="light" color="yellow" radius="lg" size="md">Imprint</Button></Link></div>
+                    <div className="navbar-item"><Link to="quality-assurance" smooth duration={500}><Button variant="light" color="yellow" radius="lg" size="md">Quality Assurance</Button></Link></div>
 
                     <div className="navbar-item">
-                        <a href="https://international-trading.danaxssert.de/#section-six" target="_blank" rel="noopener noreferrer">
-                             <Button variant="light" color="yellow" radius="lg" size="md">Imprint2</Button>
+                        <a href="https://international-trading.danaxssert.de/#imprint" target="_blank" rel="noopener noreferrer">
+                             <Button variant="light" color="yellow" radius="lg" size="md">Imprint</Button>
                        </a>
                    </div>
 

@@ -1,14 +1,14 @@
 import { Title, Text, Container, Grid, Image, Button } from '@mantine/core';
 
-const SectionSix = () => {
+const Imprint = () => {
     //const theme = useMantineTheme();
 
     return (
-        <section id="section-six">
+        <section id="imprint">
             <Container>
                 <Grid justify="space-around">
                     <Grid.Col xs={6} sm={8} md={8} lg={8}>
-                        <div style={{ marginBottom: 20 }}>
+                        <div style={{marginTop: 100,marginBottom: 20 }}>
                             <Text color="black">
                                 <Title order={1}>Imprint</Title>
                                  
@@ -46,4 +46,4 @@ const SectionSix = () => {
     )
 };
 
-export default SectionSix;
+export default Imprint;
