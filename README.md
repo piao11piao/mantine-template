@@ -1,3 +1,8 @@
+# how to use this template
+1. git clone
+2. npm install
+3. npm start
+
 # [Simple Mantine Template](https://mantinetemplate.netlify.app/)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 [![GitHub issues](https://img.shields.io/github/issues/Giuseppetm/mantine-template)](https://github.com/Giuseppetm/mantine-template/issues/)
